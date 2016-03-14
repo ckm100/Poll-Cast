@@ -21,8 +21,8 @@ app.use(bodyParser.urlencoded({
 app.use(cookieParser());
 app.use(session({
     secret: "fuck you",
-    resave: true,
-    saveUninitialized: true
+    resave: false,
+    saveUninitialized: false
 
 }));
 app.use(passport.initialize());

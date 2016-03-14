@@ -1,0 +1,35 @@
+{
+    "name": "pollcast",
+    "version": "0.0.1",
+    "description": "PollCast is a free app that let you create polls and share with your friends",
+    "main": "server.js",
+    "dependencies": {
+        "bcrypt-nodejs": "^0.0.3",
+        "connect-flash": "^0.1.1",
+        "body-parser": "^1.15.0",
+        "cookie-parser": "^1.4.1",
+        "ejs": "^2.3.2",
+        "express": "^4.13.1",
+        "express-session": "^1.13.0",
+        "cookie-session": "^2.0.0-alpha.1",
+        "mongoose": "^4.0.8",
+        "passport-local": "^1.0.0",
+        "passport": "^0.3.2",
+        "passport-twitter": "^1.0.4"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ckm100/Poll-Cast"
+    },
+    "author": "Mawuli Kufogbe",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ckm100/Poll-Cast/issues"
+    },
+    "homepage": "http://pollcast.heroku.com"
+}
